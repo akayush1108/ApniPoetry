@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/aboutpagestyle.css">
+    <title>About</title>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.jpg">
+            </div>
+            <div class="hamIcon">
+                <h1 id="toggle-bar">&#9776;</h1>
+            </div>
+            <ul class="menu-item">
+                <li><a class="nav-item" href="./index.html">Home</a></li>
+                <li><a class="nav-item" href="./about.html">About</a></li>
+                <li><a class="nav-item" href="#contact">Contact</a></li>
+                <li><a class="nav-item" href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <div class="wrap1">
+            <img src="./images/wall2.jpeg" alt="">
+            <h1>Apni Poetry</h1>
+            <p>
+                Welcome to AapniPoetry, myself Ayush Anand from Patna Bihar,<br>
+                Actually i'm not a shayar<br> bas jab dil karta hai thoda bahut likh leta hoon.<br>
+                It's 2019 when i was standing in my balcony <br>
+                and thinking something about what's going on with me<br>
+                and that night there was a little wind,<br>
+                then i wrote something for the first time - <br>
+                "Hum jo likh rahe the seene me afsos khud ka kamini hawa<br> sab
+                mitati chali gayi..."<br>
+
+                And from there i started writing something relatable,<br> Kehte hai na sbki life me kuch na kuch kahani hoti<br>
+                hai bas aapko dikhni chahiye <br>aur yeh tabhi ho pata hai jab <br>aap khud ke bare mein sochna start karte hai<br>
+                so we will start thinking about ourselves from today and now.<br><br>
+                <br>If you like my Poetry then<br>
+                Do share your<br>
+                valuable feedback on <br>
+                any of my social media contacts <br>
+                provided below .
+            </p>
+            <h3>Thank you..</h3>
+        </div>
+    </div>
+    <footer>
+        <div id="contact" class="bottom">
+            <ul>
+                <li class="facebook"><a href="https://www.facebook.com/akayush1108"><i class="fa fa-facebook fa-2x"
+                            aria-hidden="true"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/ak._.ayush1108/"><i
+                            class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                <li class="youtube"><a
+                        href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2Fchannel%2FUCSssgiMFzvk2EGoxktzCkmg&e=ATOCrbYLxbaA1TP1dlfHAw3k49u1G61an_-iZCIGs3KgaIYOHsnr-_J5GH7rzMKM_TDzc5yzM-0Q8UeggUdwq6gFgueO8igsypUGAw&s=1"><i
+                            class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/in/akayush1108"><i
+                            class="fa fa-linkedin fa-2x"></i></a></li>
+            </ul>
+            <P>Email :- ayush.anand1110@gmail.com | Ak_Ayush &copy; 2021</P>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script>
+        function toggleMenu() {
+            let getMenu = document.querySelector(".menu-item");
+            getMenu.classList.toggle("hamburger");
+        }
+
+        let getHamburger = document.querySelector("#toggle-bar");
+
+        getHamburger.addEventListener("click", toggleMenu);
+    </script>
+</body>
+
+</html>
